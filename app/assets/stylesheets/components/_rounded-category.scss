@@ -45,4 +45,29 @@
   h5 {
     color: #D69E2E;
   }
+
+  margin-top: 30px;
+
+}
+
+.where {
+  margin-top: 80px;
+}
+
+.where-text {
+      h4 {
+    color: #D69E2E;
+  }
+    p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  width: 40%;
+}
+
+#map {
+  height: 500px;  /* The height is 400 pixels */
+  width: 50%;  /* The width is the width of the web page */
+  border: solid #D69E2E;
 }
