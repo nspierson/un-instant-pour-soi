@@ -1,0 +1,21 @@
+.rounded-category {
+  border-radius: 50%;
+  max-width: 180px;
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+  margin: 40px;
+}
+
+.text-category {
+  max-width: 180px;
+  margin: 0 40px;
+  p {
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 18px;
+    color: #D69E2E;
+  }
+}
