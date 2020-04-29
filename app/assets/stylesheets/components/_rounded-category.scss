@@ -12,10 +12,37 @@
   margin: 0 40px;
   p {
     font-size: 14px;
+    line-height: 26px;
   }
 
   h5 {
     font-size: 18px;
+    color: #D69E2E;
+    line-height: 26px;
+  }
+}
+
+.about-text {
+  h4 {
+    color: #D69E2E;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  width: 60vh;
+  margin-top: 80px;
+
+}
+
+.about-photo-socials {
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+.findme {
+  h5 {
     color: #D69E2E;
   }
 }
