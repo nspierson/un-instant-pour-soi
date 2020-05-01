@@ -1,16 +1,41 @@
 <div style="margin-top: 100px;" class="container">
   <h2 class="text-center" style="margin-top:100px;">Envie de prendre un rendez-vous ? Contactez moi !</h2>
-  <div class="form-inputs col-6 offset-3">
-    <%= simple_form_for @message do |f| %>
-    <%= f.input :first_last_name, label: "Nom et prénom" %>
-    <%= f.input :phone, label: "Numéro de téléphone" %>
-    <%= f.input :email, label: "Email" %>
-    <%= f.input :city, label: "Ville de résidence" %>
-    <%= f.input :object, label: "Objet" %>
-    <%= f.input :content, label: "Votre message" %>
-</div>
-  <div class="form-actions">
-    <p class="text-center"><%= f.button :submit, "CRÉER", class: "btn btn-success" %></p>
+  <div class="d-flex justify-content-between">
+    <div class="info">
+      <h5 class="text-center">SEILER Mathilde,</h5>
+      <p><strong>Esthéticienne - Maquilleuse professionnelle - Prothésiste ongulaire - Technicienne en extension de cils</strong></p>
+      <p>Déplacement dans le pays de Bitche</p>
+      <p>Disponible du Lundi au Vendredi de 9h à 19h,
+        <br>et le Samedi de 8h à 17h
+      </p>
+      <div class="d-flex align-items-center">
+        <ul style="list-style: none;">
+          <li><i style="font-size: 30px; color: #D69E2E; margin: 30px 0;" class="fas fa-phone-alt"></i></li>
+          <li><i style="font-size: 40px; color: #D69E2E; margin-bottom: 30px;" class="far fa-envelope"></i></li>
+          <li><i style="font-size: 40px; color: #D69E2E; margin-bottom: 30px;" class="fas fa-map-marker-alt"></i></li>
+        </ul>
+        <ul style="list-style: none;">
+          <li style="margin: 30px 0;"><span style="font-size:20px; color: #D69E2E;">03.85.27.37.43</span></li>
+          <li style="margin-bottom: 30px;"><span style="font-size:20px; color: #D69E2E;">mathilde@email.com</span></li>
+          <li style="margin-bottom: 30px;"><span style="font-size:20px; color: #D69E2E;">Pays de Bitche et environs</span></li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="form">
+      <div class="form-inputs col-12">
+        <%= simple_form_for @message do |f| %>
+        <%= f.input :first_last_name, label: "Nom et prénom" %>
+        <%= f.input :phone, label: "Numéro de téléphone" %>
+        <%= f.input :email, label: "Email" %>
+        <%= f.input :city, label: "Ville de résidence" %>
+        <%= f.input :object, label: "Objet" %>
+        <%= f.input :content, label: "Votre message" %>
+      </div>
+      <div class="form-actions">
+        <p class="text-center"><%= f.button :submit, "Envoyer", class: "btn btn-success" %></p>
+      </div>
+        <% end %>
+    </div>
   </div>
-  <% end %>
 </div>
