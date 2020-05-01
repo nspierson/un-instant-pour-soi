@@ -1,0 +1,16 @@
+<div style="margin-top: 100px;" class="container">
+  <h2 class="text-center" style="margin-top:100px;">Envie de prendre un rendez-vous ? Contactez moi !</h2>
+  <div class="form-inputs col-6 offset-3">
+    <%= simple_form_for @message do |f| %>
+    <%= f.input :first_last_name, label: "Nom et prénom" %>
+    <%= f.input :phone, label: "Numéro de téléphone" %>
+    <%= f.input :email, label: "Email" %>
+    <%= f.input :city, label: "Ville de résidence" %>
+    <%= f.input :object, label: "Objet" %>
+    <%= f.input :content, label: "Votre message" %>
+</div>
+  <div class="form-actions">
+    <p class="text-center"><%= f.button :submit, "CRÉER", class: "btn btn-success" %></p>
+  </div>
+  <% end %>
+</div>
