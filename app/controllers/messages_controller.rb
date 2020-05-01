@@ -1,5 +1,5 @@
 class MessagesController < ApplicationController
-  :after_create
+  skip_before_action :authenticate_user!, only: [:new, :create]
   def new
     @message = Message.new
   end
