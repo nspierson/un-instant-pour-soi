@@ -1,7 +1,14 @@
 <div class="container">
-  <div class="d-flex">
+  <h2 class="text-center" style="margin-top: 30px;">MA GALERIE</h2>
+  <div class="d-flex justify-content-between">
     <% @latests.each do |latest| %>
-    <%= latest.name %>
+      <% if latest.photo.attached? %>
+        <div class="card-category" style="text-decoration: none; background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= cl_image_path latest.photo.key %>);">
+      <% else %>
+        <div class="card-category" style="text-decoration: none; background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url();">
+      <% end %>
+      <%= latest.name %>
+
     <% end %>
   </div>
 </div>

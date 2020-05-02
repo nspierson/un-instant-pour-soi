@@ -43,6 +43,7 @@ gem 'devise'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
+gem 'cloudinary'
 gem 'letter_opener', group: :development
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'

@@ -20,6 +20,6 @@ class LatestsController < ApplicationController
   private
 
   def latest_params
-    params.require(:latest).permit(:name, :comment)
+    params.require(:latest).permit(:name, :comment, :photo)
   end
 end
