@@ -1,8 +1,18 @@
-<div class="footer">
-  <h5 class="text-center">CONTACT</h5>
-  <p style="margin: 0;" class="text-center">Un instant pour soi
-   <br><strong>06.46.75.41.48</strong>
-   <br>Uniquement sur rendez vous :
-   <br>
-   <br>du Lundi au Vendredi de 9h à 19h et le Samedi de 8h à 17h.</p>
+<div class="footer d-flex justify-content-center align-items-center">
+  <div class="footer-info">
+    <h5 class="text-center">CONTACT</h5>
+    <p style="margin: 0;" class="text-center">Un instant pour soi
+     <br><strong>06.46.75.41.48</strong>
+     <br>Uniquement sur rendez vous :
+     <br>
+     <br>du Lundi au Vendredi de 9h à 19h et le Samedi de 8h à 17h.</p>
+  </div>
+  <div class="footer-link">
+    <ul style="list-style: none;">
+      <li style="text-decoration: none;"><%= link_to "Accueil", root_path, class: "nav-link" %></li>
+      <li><%= link_to "Carte des soins", soins_path, class: "nav-link" %></li>
+      <li><%= link_to "Galerie", latests_path, class: "nav-link" %></li>
+      <li><%= link_to "Me contacter", new_message_path, class: "nav-link" %></li>
+    </ul>
+  </div>
 </div>
