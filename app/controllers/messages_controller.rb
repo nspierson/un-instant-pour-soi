@@ -20,10 +20,6 @@ class MessagesController < ApplicationController
     end
   end
 
-  def send_owner_message
-
-  end
-
   private
 
   def message_params

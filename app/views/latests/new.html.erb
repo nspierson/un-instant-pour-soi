@@ -1,0 +1,12 @@
+<div style="margin-top: 100px;" class="container">
+  <h2 class="text-center" style="margin-top:100px;">Ajouter une photo à la galerie.</h2>
+  <div class="form-inputs col-6 offset-3">
+    <%= simple_form_for @latest do |f| %>
+    <%= f.input :name, label: "Nom" %>
+    <%= f.input :comment, label: "Commentaire (optionnel)" %>
+</div>
+  <div class="form-actions">
+    <p class="text-center"><%= f.button :submit, "CRÉER", class: "btn btn-success" %></p>
+  </div>
+  <% end %>
+</div>
