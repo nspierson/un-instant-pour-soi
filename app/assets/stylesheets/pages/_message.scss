@@ -6,3 +6,95 @@
 .form {
   width: 45%;
 }
+
+.info-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+
+  ul li {
+    margin-top: 30px;
+  }
+
+  ul li i {
+    color: #D69E2E;
+    font-size: 30px;
+
+  }
+
+  ul li span {
+    font-size: 20px;
+
+  }
+}
+
+@media(max-width: 1000px) {
+  .info-form {
+    display: block;
+  }
+
+  .info {
+    width: 100%;
+    border: none;
+    margin: auto;
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .form {
+    width: 60%;
+    margin: auto;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+
+    ul li {
+      margin-top: 30px;
+    }
+
+    ul li i {
+      color: #D69E2E;
+      font-size: 30px;
+
+    }
+
+    ul li span {
+      font-size: 20px;
+
+    }
+  }
+
+  .info-hours {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media(max-width: 500px) {
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 50%;
+  }
+
+  .hook {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+
+  .form {
+    width: 80%;
+    margin: auto;
+  }
+}
