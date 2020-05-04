@@ -27,3 +27,57 @@
     right: 310px;
   }
 }
+
+@media(max-width: 900px) {
+  .banner {
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    border-top: solid #D69E2E;
+    border-bottom: solid #D69E2E;
+    padding: 50px 100px;
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      color: #FFD8D6;
+      font-size: 70px;
+      text-shadow: 1px 1px 2px #D69E2E;
+      opacity: 0.8;
+    }
+    h4 {
+      font-family: 'Ledger', serif;
+      color: #D69E2E;
+      font-size: 14px;
+      text-shadow: 1px 1px 2px black;
+      opacity: 0.7;
+    }
+  }
+
+  .banner-text {
+
+  }
+}
+
+@media(max-width: 600px) {
+  .banner {
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    border-top: solid #D69E2E;
+    border-bottom: solid #D69E2E;
+    padding: 50px 100px;
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      color: #FFD8D6;
+      font-size: 50px;
+      text-shadow: 1px 1px 2px #D69E2E;
+      opacity: 0.8;
+    }
+    h4 {
+      font-family: 'Ledger', serif;
+      color: #D69E2E;
+      font-size: 10px;
+      text-shadow: 1px 1px 2px black;
+      opacity: 0.7;
+    }
+  }
+}
