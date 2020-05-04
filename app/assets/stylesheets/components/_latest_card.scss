@@ -27,6 +27,24 @@
   .cards {
     grid-template-columns: 1fr;
   }
+
+  .card-category {
+    background-size: cover;
+    background-position: bottom;
+    height: 260px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border: 1px solid #D69E2E;
+    margin-bottom: 20px;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -56,3 +74,4 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
