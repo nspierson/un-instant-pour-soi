@@ -1,4 +1,8 @@
-
+.carte-soins {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .soins {
   width: 45%;
@@ -18,4 +22,37 @@ h4 {
 
 span {
   font-size: 14px;
+}
+
+
+@media(max-width: 780px) {
+  .carte-soins {
+    display: block;
+    flex-wrap: no-wrap;
+    justify-content: center;
+  }
+
+  .soins {
+    width: 100%;
+    margin-bottom: 105px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+
+  h2 {
+    color: #D69E2E;
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    color: #D69E2E;
+    margin-bottom: 30px;
+  }
+
+  span {
+    font-size: 10px;
+  }
 }
