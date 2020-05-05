@@ -5,6 +5,7 @@
   border-top: solid #D69E2E;
   border-bottom: solid #D69E2E;
   padding: 350px 100px;
+  z-index: 10;
   h1 {
     font-family: 'Dancing Script', cursive;
     color: #FFD8D6;
@@ -12,7 +13,7 @@
     text-shadow: 1px 1px 2px #D69E2E;
     opacity: 0.8;
     position: absolute;
-    bottom: 270px;
+    bottom: 370px;
     right: 137px;
   }
   h4 {
@@ -23,7 +24,7 @@
     text-shadow: 1px 1px 2px black;
     opacity: 0.7;
     position: absolute;
-    bottom: 200px;
+    bottom: 340px;
     right: 310px;
   }
 }

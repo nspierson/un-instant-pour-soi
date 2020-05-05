@@ -2,6 +2,14 @@
   justify-content: space-between !important;
   background: transparent;
   opacity: 1;
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+  width: 100%;
+
+  a {
+    color: #D69E2E !important;
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -10,5 +18,11 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-instant {
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
 }
 
