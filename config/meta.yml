@@ -1,5 +1,5 @@
 meta_product_name: "Un instant pour soi"
 meta_title: "Un instant pour soi - SEILER Mathilde esthéticienne à domicile"
 meta_description: "Un instant pour soi : votre esthéticienne à domicile dans le Pays de Bitche, soins visages, mains et pieds, extension de cils, épilations et maquillage."
-meta_image: "" # should exist in `app/assets/images/`
+meta_image: "meta_image.png" # should exist in `app/assets/images/`
 twitter_account: "@product_twitter_account"   # required for Twitter Cards
