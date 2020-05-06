@@ -26,7 +26,7 @@
     <h5 class="text-center hook">Ou laissez moi un message en me disant ce qui vous ferais plaisir et je vous recontacterais !</h5>
     </div>
     <div class="form">
-      <div class="form-inputs col-12">
+      <div class="form-inputs col-12" style="margin-bottom: 30px;">
         <%= simple_form_for @message do |f| %>
         <%= f.input :first_last_name, label: "Nom et prénom" %>
         <%= f.input :phone, label: "Numéro de téléphone" %>
@@ -35,7 +35,7 @@
         <%= f.input :object, label: "Objet" %>
         <%= f.input :content, label: "Votre message" %>
       </div>
-      <div class="form-actions">
+      <div class="form-actions" style="margin-top: 100px;">
         <p class="text-center"><%= f.button :submit, "Envoyer" %></p>
       </div>
         <% end %>
