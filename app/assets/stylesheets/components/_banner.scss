@@ -29,6 +29,14 @@
   }
 }
 
+.mid-banner {
+  background-attachment: fixed;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media(max-width: 900px) {
   .banner {
     height: 100vh;
@@ -94,17 +102,18 @@
     h1 {
       font-family: 'Dancing Script', cursive;
       color: #FFD8D6;
-      font-size: 45px;
+      font-size: 80px;
       text-shadow: 1px 1px 2px #D69E2E;
       opacity: 0.8;
       position: relative;
       bottom: 0px;
       right: 0px;
+      margin: 0 auto;
     }
     h4 {
       font-family: 'Ledger', serif;
       color: #D69E2E;
-      font-size: 15px;
+      font-size: 20px;
       text-shadow: 1px 1px 2px black;
       opacity: 0.7;
       position: relative;
@@ -117,5 +126,15 @@
     width: 300px;
     height: auto;
     text-align: center;
+    margin: 0 auto;
+  }
+
+  .mid-banner {
+    background-position: top 1000px right -950px;
+    background-attachment: unset;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
