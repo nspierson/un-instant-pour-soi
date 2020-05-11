@@ -96,7 +96,8 @@
   .banner {
     height: 100vh;
     width: 100vw;
-    background-attachment: fixed;
+    background-attachment: unset;
+    background-position: -885px -265px;
     border-top: solid #D69E2E;
     border-bottom: solid #D69E2E;
     padding: 200px 0px 0px 50px;
