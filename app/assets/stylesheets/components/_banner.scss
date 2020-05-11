@@ -2,6 +2,7 @@
   height: 80vh;
   width: 100vw;
   background-attachment: fixed;
+  background-position: center;
   border-top: solid #D69E2E;
   border-bottom: solid #D69E2E;
   padding: 350px 100px;
@@ -98,7 +99,7 @@
     background-attachment: fixed;
     border-top: solid #D69E2E;
     border-bottom: solid #D69E2E;
-    padding: 200px 0px 0px 0px;
+    padding: 200px 0px 0px 50px;
     h1 {
       font-family: 'Dancing Script', cursive;
       color: #FFD8D6;
@@ -120,6 +121,7 @@
       margin-left: 0;
       bottom: 0px;
       right: 0px;
+      margin-bottom: 100px;
     }
   }
   .banner-text {
