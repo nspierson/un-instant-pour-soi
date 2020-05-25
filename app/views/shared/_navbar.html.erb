@@ -22,6 +22,11 @@
         <li class="nav-item">
             <%= link_to "Me contacter", "/messages/new#scrollPoint", class: "nav-link" %>
         </li>
+        <% if user_signed_in? %>
+          <li class="nav-item">
+              <%= link_to "Ajouter à la galerie", "/latests/new#scrollPoint", class: "nav-link" %>
+          </li>
+        <% end %>
     </ul>
   </div>
 </div>
