@@ -13,6 +13,6 @@ class OwnerMailer < ApplicationMailer
     @city = city
     @content = content
 
-    mail to: "nicolas.pierson57@gmail.com"
+    mail to: "un.instant.pour.soi.esthetique@gmail.com"
   end
 end
